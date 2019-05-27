@@ -66,7 +66,7 @@ function removeDuplicates(array, cb) {
     if (!newArr.includes(item)) {
       newArr.push(item);
     }
-  });
+  });c
   return cb(newArr);
 }
 
